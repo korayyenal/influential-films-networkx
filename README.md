@@ -35,29 +35,29 @@ As methodology, I compute an influence score for each movie through four static 
 
 ## Results
 
-### Long-gap Citation Count
-
-<img src="figures/long-gap.png" width=60% height=60%>
-
-*Table 2 – Top 10 most influential movies, by Long Gap Citation Count*
-
 ### PageRank
 
 <img src="figures/pagerank.png" width=60% height=60%>
 
-*Table 3 – Top 10 most influential movies, by PageRank*
+*Table 2 – Top 10 most influential movies, by PageRank*
+
+### Long-gap Citation Count
+
+<img src="figures/long-gap.png" width=60% height=60%>
+
+*Table 3 – Top 10 most influential movies, by Long Gap Citation Count*
 
 <!-- Finally, I derive a list of films that can be considered the most influential in the history of cinema.  --> 
 
-The main differences between the two tables are highlighted in blue and red in Table 2 and Table 3, respectively. Comparing two tables, I have several observations:
+The main differences between the two tables are highlighted in <span style="color:blue"> *blue* </span> and <span style="color:red"> *red* </span> in Table 2 and Table 3, respectively. Comparing two tables, I have several observations:
 
-- First, there is temporal bias in Table 3. 70% of the movies have been released before 1940. This is expected; PageRank rewards older films than more recent films. As a result, older movies tend to place higher in the list.
+- First, there is temporal bias in Table 2. 70% of the movies have been released before 1940. This is expected; PageRank rewards older films than more recent films. As a result, older movies tend to place higher in the list.
 
-- Second, the temporal bias is partially reduced in Table 2. This is due to the temporal nature of Long-Gap Citation Count, which excludes citatitons that are shorter than 25 years. As a result, there are more recent films in the Top 10 list, such as movies highlighted in blue. 
+- Second, the temporal bias is partially reduced in Table 3. This is due to the temporal nature of Long-Gap Citation Count, which excludes citatitons that are shorter than 25 years. As a result, there are more recent films in the Top 10 list, such as movies highlighted in blue. 
 
-- Third, movies highlighted in red in Table 3 are excluded in Table 2. This is because those films were influential soon after their original release but did not stand the test of time because they did not get referenced by more recent films.
+- Third, movies highlighted in red in Table 2 are excluded in Table 3. This is because those films were influential soon after their original release but did not stand the test of time because they did not get referenced by more recent films.
 
-- Finally, there is location bias in both cases. All movies in the Top 10 for both measures are American, with no other country represented in the Top 10 list. We can argue that the references that American movies receive are more accurately reflected in the dataset. 
+- Finally, there is location bias in both tables. All movies in the Top 10 for both measures are American, with no other country represented in the Top 10 list. We can argue that the references that American movies receive are more accurately reflected in the dataset. 
 
 ### References
 
