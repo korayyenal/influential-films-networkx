@@ -23,6 +23,6 @@ I compute an influence score for each movie through four static centrality measu
 1. In-degree Centrality
 2. Eigenvector Centrality
 3. Katz Centrality
-4. Eigenvector Centrality
+4. PageRank Centrality
 
 <!-- Finally, I derive a list of films that can be considered the most influential in the history of cinema.  --> 
