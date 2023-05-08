@@ -57,7 +57,7 @@ The main differences between the two tables are highlighted in <span style="colo
 
 - Third, movies highlighted in red in Table 2 are excluded in Table 3. This is because those films were influential soon after their original release but did not stand the test of time because they did not get referenced by more recent films.
 
-- Finally, there is location bias in both tables. All movies in the Top 10 for both measures are American, with no other country represented in the Top 10 list. We can argue that the references that American movies receive are more accurately reflected in the dataset. 
+- Finally, there is location bias. All movies in both tables are American with no other country represented. We can argue that the references that American movies receive are more accurately reflected in the dataset. 
 
 ### References
 
