@@ -10,20 +10,28 @@ The dataset is the IMDb movie citation network consisting of around 48,000 inter
 
 For each movie I also collect data on its year of release, genre and country of origin to analyze patterns in the film industry based on such features.
 
+# Network Structure
+
+Table 1 presents some statistics of the network that we have generated. The resulting network is directed and acyclic, because a film cannot be referenced by a film that came out at an earlier date.
+
+<img src="figures/statistics.png" width=60% height=60%>
+
+*Table 1 – Generated network statistics*
+
 # Methodology
 
-I compute an influence score for each movie through four static centrality measures and one temporal measure. These measures are graph centrality algorithms borrowed from Network Analysis.
+I compute an influence score for each movie through four static centrality measures and one temporal measure. These measures are graph centrality algorithms borrowed from Network Analysis. The methods selected for the final comparison are highlighted in bold.
 
 ## Temporal Measures
 
-1. Long-gap Citation Count
+1. **Long-gap Citation Count**
 
 ## Centrality Measures
 
 1. In-degree Centrality
 2. Eigenvector Centrality
 3. Katz Centrality
-4. PageRank Centrality
+4. **PageRank Centrality**
 
 ## Results
 
@@ -31,12 +39,12 @@ I compute an influence score for each movie through four static centrality measu
 
 <img src="figures/long-gap.png" width=60% height=60%>
 
-*Table 1 – Top 10 most influential movies, by Long Gap Citation Count*
+*Table 2 – Top 10 most influential movies, by Long Gap Citation Count*
 
 ### PageRank
 
 <img src="figures/pagerank.png" width=60% height=60%>
 
-*Table 2 – Top 10 most influential movies, by PageRank*
+*Table 3 – Top 10 most influential movies, by PageRank*
 
 <!-- Finally, I derive a list of films that can be considered the most influential in the history of cinema.  --> 
