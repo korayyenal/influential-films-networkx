@@ -20,11 +20,11 @@ Table 1 presents some statistics of the network that we have generated. The resu
 
 # Methodology
 
-I compute an influence score for each movie through four static centrality measures and one temporal measure. These measures are graph centrality algorithms borrowed from Network Analysis. The methods selected for the final comparison are highlighted in bold.
+As methodology, I compute an influence score for each movie through four static centrality measures and one temporal measure. These measures are graph centrality algorithms borrowed from Network Analysis. The methods selected for the final comparison are highlighted in bold.
 
 ## Temporal Measures
 
-1. **Long-gap Citation Count**
+1. **Long-gap Citation Count** (Inspired by Wasserman et al. (2014))
 
 ## Centrality Measures
 
@@ -48,3 +48,17 @@ I compute an influence score for each movie through four static centrality measu
 *Table 3 – Top 10 most influential movies, by PageRank*
 
 <!-- Finally, I derive a list of films that can be considered the most influential in the history of cinema.  --> 
+
+The main differences between the two tables are highlighted in blue and red in Table 2 and Table 3, respectively. Comparing two tables, I have several observations:
+
+- First, there is temporal bias in Table 3. 70% of the movies have been released before 1940. This is expected; PageRank rewards older films than more recent films. As a result, older movies tend to place higher in the list.
+
+- Second, the temporal bias is partially reduced in Table 2. This is due to the temporal nature of Long-Gap Citation Count, which excludes citatitons that are shorter than 25 years. As a result, there are more recent films in the Top 10 list, such as movies highlighted in blue. 
+
+- Third, movies highlighted in red in Table 3 are excluded in Table 2. This is because those films were influential soon after their original release but did not stand the test of time because they did not get referenced by more recent films.
+
+- Finally, there is location bias in both cases. All movies in the Top 10 for both measures are American, with no other country represented in the Top 10 list. We can argue that the references that American movies receive are more accurately reflected in the dataset. 
+
+### References
+
+Wasserman, M., Zeng, X.H.T. & Amaral, L.A.N. 2014. “Cross-evaluation of metrics to estimate the significance of creative works”. Applied Mathematics. 112 (5) 1281-1286. 
