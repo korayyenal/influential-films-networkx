@@ -29,10 +29,14 @@ I compute an influence score for each movie through four static centrality measu
 
 ### Long-gap Citation Count
 
-<!-- ![image](credit_risk_analysis_files/figure-gfm/unnamed-chunk-36-1.png) --> 
+![image](figures/long-gap.png)
+
+*Table 1 – Top 10 most influential movies, by Long Gap Citation Count*
 
 ### PageRank
 
-<!-- ![image](credit_risk_analysis_files/figure-gfm/unnamed-chunk-36-1.png) --> 
+![image](figures/pagerank.png)
+
+*Table 2 – Top 10 most influential movies, by PageRank*
 
 <!-- Finally, I derive a list of films that can be considered the most influential in the history of cinema.  --> 
