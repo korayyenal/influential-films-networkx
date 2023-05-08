@@ -29,13 +29,13 @@ I compute an influence score for each movie through four static centrality measu
 
 ### Long-gap Citation Count
 
-<img src="figures/long-gap.png" width=50% height=50%>
+<img src="figures/long-gap.png" width=60% height=60%>
 
 *Table 1 – Top 10 most influential movies, by Long Gap Citation Count*
 
 ### PageRank
 
-<img src="figures/pagerank.png" width=50% height=50%>
+<img src="figures/pagerank.png" width=60% height=60%>
 
 *Table 2 – Top 10 most influential movies, by PageRank*
 
