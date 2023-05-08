@@ -53,7 +53,7 @@ The main differences between the two tables are highlighted in <span style="colo
 
 - First, there is temporal bias in Table 2. 70% of the movies have been released before 1940. This is expected; PageRank rewards older films than more recent films. As a result, older movies tend to place higher in the list.
 
-- Second, the temporal bias is partially reduced in Table 3. This is due to the temporal nature of Long-Gap Citation Count, which excludes citatitons that are shorter than 25 years. As a result, there are more recent films in the Top 10 list, such as movies highlighted in blue. 
+- Second, the temporal bias is partially reduced in Table 3. This is due to the temporal nature of Long-Gap Citation Count, which excludes citatitons that are shorter than 25 years. As a result, there are more recent films in Table 3, such as movies highlighted in blue. 
 
 - Third, movies highlighted in red in Table 2 are excluded in Table 3. This is because those films were influential soon after their original release but did not stand the test of time because they did not get referenced by more recent films.
 
