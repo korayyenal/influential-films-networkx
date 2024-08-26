@@ -1,5 +1,9 @@
 The dataset can be accessed by this link: https://ftp.fu-berlin.de/pub/misc/movies/database/frozendata/
 
+## Project Summary Flowchart
+
+<img src="figures/Network_Project_Flowchart.png">
+
 # Project Description
 
 The success of a film is usually measured through its box-office revenue or the opinion of professional critics. In this project, a different approach is proposed: the success of a movie is measured looking at how much it has influenced the ones released after it. 
