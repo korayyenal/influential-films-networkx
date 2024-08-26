@@ -1,6 +1,6 @@
 The dataset can be accessed by this link: https://ftp.fu-berlin.de/pub/misc/movies/database/frozendata/
 
-## Project Summary Flowchart
+## Summary Flowchart
 
 <img src="figures/Network_Project_Flowchart.png">
 
